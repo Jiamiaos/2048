@@ -309,12 +309,3 @@ while(True):
             break
         else:
             print("This won't help. Try another direction.")
-
-
-
-
-
-
-
-
-
