@@ -298,8 +298,10 @@ while(True):
     elif mov==44:
         print('<<Invalid input>> Use WASD to control moving.')
     elif mov==2:
-        print('Wow! You are GENIUS!!!')
-        print('Congratulation!')
+        clear_output(wait=True)
+        maketable()
+        print('  Wow! You make it!!!  '.center(40,'*'))
+        print('  Congratulation!  '.center(40,'*'))
         break
     elif mov==0:
         life=check()
